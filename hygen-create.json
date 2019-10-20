@@ -1,0 +1,17 @@
+{
+  "about": "This is a hygen-create definitions file. The hygen-create utility creates generators that can be executed using hygen.",
+  "hygen_create_version": "0.2.0",
+  "name": "shardus",
+  "files_and_dirs": {
+    "index.js": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "README.md": true,
+    "scripts/clean.js": true,
+    "scripts/start.js": true,
+    "scripts/stop.js": true,
+    "client.js": true
+  },
+  "templatize_using_name": "shardus-template",
+  "gen_parent_dir": true
+}
